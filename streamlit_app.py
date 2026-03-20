@@ -34,9 +34,9 @@ if not st.session_state['authenticated']:
 
 # --- 3. SECURE API CONFIGURATION (Secrets Vault) ---
 try:
-    GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
-    THESPORTS_USER = st.secrets["THESPORTS_USER"]
-    THESPORTS_SECRET = st.secrets["THESPORTS_SECRET"]
+    GEMINI_API_KEY = st.secrets["AIzaSyAnIn8rijiJqEdR3FrweiLwbaLY1uZ6Lts"]
+    THESPORTS_USER = st.secrets["theyzhaso"]
+    THESPORTS_SECRET = st.secrets["4e8d37d123ec79adbf295e3f98b8dffd"]
 except Exception:
     st.error("CRITICAL ERROR: API Secrets not found in Streamlit Cloud settings.")
     st.stop()

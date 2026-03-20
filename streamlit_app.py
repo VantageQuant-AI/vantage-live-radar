@@ -103,3 +103,4 @@ for i, (sport, key) in enumerate(sports):
 
 st.divider()
 st.caption("© 2026 VANTAGE QUANT TECHNOLOGIES | Global SaaS Model v1.2")
+st.warning(f"SERVER IP: {requests.get('https://api.ipify.org').text}")

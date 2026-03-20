@@ -1,4 +1,3 @@
-st.warning(f"SERVER IP TO ADD: {requests.get('https://api.ipify.org').text}")
 import streamlit as st
 import requests
 from google import genai

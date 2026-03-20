@@ -4,7 +4,6 @@ from google import genai
 import time
 from datetime import datetime
 
-st.warning(f"SERVER IP TO ADD: {requests.get('https://api.ipify.org').text}")
 # --- 1. GLOBAL TERMINAL CONFIGURATION ---
 st.set_page_config(
     page_title="VANTAGE QUANT AI | Live Radar", 
